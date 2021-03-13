@@ -1,0 +1,47 @@
+
+https://towardsdatascience.com/software-engineering-best-practices-for-data-scientists-4c199ede6e03?gi=98257204cceb
+
+Software Engineering Best Practices for Data Scientists
+
+1. Good code should be efficient — this means that you squeeze every little bit of speed and efficiency out of your Python code, even when there is none.
+2. Good code is maintainable — this means that you can maintain the code and that others can easily understand and maintain your code.
+3. Good code is readable and well-structured — this means that anyone should be able to look at your code and understand what you’re trying to accomplish without having to try too hard.
+4. Good code is reliable — clean code is good code, and good code is reliable such that it isn’t prone to bugs or random glitches.
+
+Use functions.
+1. Functions, regardless of your programming methodology (object-oriented, functional, etc.), are vital to keeping your code clean, concise, readable, and DRY (which I’ll talk about later on).
+2. Functions aren’t always intuitive for non-computer-science-graduate-data-scientists because code will run correctly without them.
+3. However, the best programmers are said to be the laziest programmers. Why? Because they write the least amount of code and often write the cleanest code to produce a solution. They work as little as possible to get their code to work and they often produce the most concise solutions. This involves using functions.
+4.Here are some tips on how to write great functions that keep your code clean:
+5. The function should only do one thing. Not 10. Not 20. Just one thing.
+6. Functions should be small. Some argue that functions should contain no more than 20 lines of code, but this is an arbitrary number. Try your best to keep your functions short and to the point.
+7.Functions should be written so you can read them and understand their logic in a top-to-bottom fashion — just like how you read a book.
+8. Try to keep the number of function arguments to a minimum (less than 3 is preferred). If you’re requiring more than three function arguments, ask yourself if the function is only completing one task.
+9.Make sure the logic found within functions is properly indented and that the code for the entire function is properly blocked. This will help others see what code is inside the function, and where the function starts and stops.
+10. Use descriptive names.
+
+
+
+My personal rule of thumb for comments:
+Write a comment at the top of the code file, giving a brief description of the goal of the code.
+Write a comment at the top of each function describing its inputs, outputs, and what logic it's performing.
+Write a comment at the top of any logic that I don’t totally understand so I can better organize my thoughts. This helps during debugging and code refactoring.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
